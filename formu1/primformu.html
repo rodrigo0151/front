@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script>
+
+    function fechaDivResultado(){
+        var divResultado = document.getElementById("div-resultado");
+        divResultado.style = "display:none";
+    }
+
+
+
+    function processaForm(){
+
+        var nome = document.getElementById("nome");
+        var sobrenome = document.getElementById("sobrenome");
+        var cpf = document.getElementById("cpf");
+        var celular = document.getElementById("celular");
+        var email = document.getElementById("email");
+        var dataNasc = document.getElementById("data_nascimento");
+        var sexo = document.getElementById("sexo");
+        var senha = document.getElementById("senha");
+        var repitaSenha = document.getElementById("repita_senha");
+
+
+        console.log("nome "+nome.value);
+        console.log("sobrenome "+sobrenome.value);
+        console.log("cpf "+cpf.value);
+        console.log("celular "+celular.value);
+        console.log("email "+email.value);
+        console.log("dataNasc "+dataNasc.value);
+        console.log("sexo "+sexo.value);
+        console.log("senha "+senha.value);
+        console.log("repitaSenha "+repitaSenha.value);
+        
+        var divResultado = document.getElementById("div-resultado");
+        divResultado.innerHTML = 
+            "<div>"+
+                "<div onclick='fechaDivResultado();'>X</div>"+
+                "<div>Nome: "+nome.value+"</div>"+
+                "<div>sobrenome: "+sobrenome.value+"</div>"+
+                "<div>cpf: "+cpf.value+"</div>"+
+                "<div>celular: "+celular.value+"</div>"+
+                "<div>email: "+email.value+"</div>"+
+                "<div>dataNasc: "+dataNasc.value+"</div>"+
+                "<div>sexo: "+sexo.value+"</div>"+
+                "<div>senha: "+senha.value+"</div>"+
+                "<div>repitaSenha: "+repitaSenha.value+"</div>"+
+            "</div>";
+        divResultado.style = "display:block";
+            
+
+        
+    }
+
+
+
+</script>
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+    <main>
+        <div>
+            <form action="#">
+                <!---
+                nome
+                sobrenome
+                cpf
+                celular
+                e-mail
+                data de nascimento
+                sexo
+                senha
+                repita a senha
+                -->
+                <label for="nome">Nome*</label>
+                <input type="text" id="nome" name="nome" required value="">
+                <br />
+                <br />
+                <label for="sobrenome">Sobrenome*</label>
+                <input type="text" id="sobrenome" name="sobrenome" required>
+                <br />
+                <br />
+                <label for="cpf">CPF*</label>
+                <input type="text" id="cpf" name="cpf" required>
+                <br />
+                <br />
+                <label for="celular">Cel</label>
+                <input type="tel" id="celular" name="celular" pattern="[0-9]{2}-[0-9]{1}-[0-9]{4}-[0-9]{4}">
+                <br />
+                <br />
+                <label for="email">e-mail</label>
+                <input type="email" id="email" name="email">
+                <br />
+                <br />
+                <label for="data_nascimento">Data de nascimento</label>
+                <input type="date" id="data_nascimento" name="data_nascimento">
+                <br />
+                <br />
+                <label for="sexo">Sexo</label>
+                <select id="sexo" name="sexo">
+                    <option value="F">Feminino</option>
+                    <option value="M">Masculino</option>
+                </select>
+                <br />
+                <br />
+                <label for="senha">Cadestre uma senha*</label>
+                <input type="password" id="senha" name="senha" required>
+                <br />
+                <br />
+                <label for="repita_senha">Repita sua senha*</label>
+                <input type="password" id="repita_senha" name="repita_senha" required>
+                <br />
+                <br />
+                <button type="button" onclick="processaForm();">Ok</button>
+
+
+            </form>
+
+        </div>
+        <div id="div-resultado" style="display: none;">
+            <p>Cadastro não efetuado</p>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
