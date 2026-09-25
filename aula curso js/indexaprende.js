@@ -7,7 +7,7 @@ const idade = 25;
 console.log("Nome:", nome);
 console.log("Idade:", idade);
 
-// Tipos de dados
+// TIPO DE DADOS
 let numero = 10;
 let decimal = 3.5;
 let booleano = true;
@@ -45,3 +45,28 @@ if (idade >= 18) {
 for (let i = 1; i <= 3; i++) {
   console.log("Contagem:", i);
 }
+
+//variaveis2
+// var: antigo; pode ser alterado e redeclarado.
+// let: pode ser alterado, mas não redeclarado no mesmo bloco.
+// const: não pode receber outro valor depois de criado.
+
+
+// comparacoes
+5 = 5 //igual
+idade => 18 && temcarta //maior igual e AND
+pix || cartao //OR
+!estalogado //NOT
+
+// exemplos de tipos de dados
+console.log(typeof 2);  
+console.log(typeof 5.14);   //number
+console.log(typeof "Hello");    //string
+
+console.log(2+2);    //soma
+console.log(2-2);   //subtração
+console.log(2*2);   //multiplicação
+console.log(2/2);   //divisão
+console.log(2**3); //elevado a potencia
+
+

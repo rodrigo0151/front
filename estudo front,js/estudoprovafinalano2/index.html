@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+    <h1>Formulário de Login</h1>
+    </header>
+
+    <main>
+    <div id="formulario">
+    <form>
+        <label for="nome">Nome  :
+        <input type="text" id="nome" name="nome" placeholder="Nome">
+        </label>
+
+        <label for="senha">Senha  :
+        <input type="password" id="senha" name="senha" placeholder="Senha">
+        </label>
+
+         <label for="data_nascimento">Data de nascimento (opcional) :
+                <input class="nasc" type="date" id="data_nascimento" name="data_nascimento">
+         </label>
+
+        <label for="Entrar">
+        <button onclick="fazerLogin()" type="submit">Entrar</button>
+        </label>
+
+
+    </form>
+    </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

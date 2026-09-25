@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="atividade.css" type="text/css">
+    <script>
+        function soma(){
+        alert ("alo mundo");
+        console.log ("alo mundo 2");
+        var ap1=document.getElementById("ap1").value;
+        var ap2=document.getElementById("ap2").value;
+    
+        var ap1Number =parseInt(ap1);
+        var ap2Number =parseInt(ap2);
+        var soma=ap1Number +ap2Number;
+        console.log(soma);
+        }
+    </script>
+    <title>atividade</title>
+</head>
+<body>
+    <div>resultado</div>
+    <div>
+        <input type="number" id="ap1" name="ap1"><br>
+        <input type="number" id="ap2" name="ap2"><br>
+        <button type="button" onclick="soma()">soma</button>
+        
+    
+    </div>
+    
+</body>
+</html>
