@@ -1,3 +1,9 @@
+//JS INTERMEDIÁRIO
+//arrow function
+const soma = (a, b) => a + b;
+
+
+
 // JavaScript básico
 
 // Variáveis
