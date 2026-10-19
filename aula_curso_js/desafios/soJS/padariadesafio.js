@@ -1,7 +1,6 @@
 // SISTEMA DE PADARIA
-// Aqui criamos um array chamado "produtos".
-// Dentro dele, cada produto é um objeto com:
-// id, nome, categoria e preço.
+// array produtos.
+
 
 const produtos = [
     {

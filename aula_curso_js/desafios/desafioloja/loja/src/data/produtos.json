@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nome": "Katana Samurai",
+    "categoria": "Espadas",
+    "preco": 900.00,
+    "imagem": "/imagens/katana.jpg",
+    "descricao": "Espada japonesa curva inspirada nos samurais."
+  },
+  {
+    "id": 2,
+    "nome": "Kunai Ninja",
+    "categoria": "Ninjas",
+    "preco": 100.00,
+    "imagem": "/imagens/kunai.jpg",
+    "descricao": "Arremesso de metal usado pelos ninjas."
+  },
+  {
+    "id": 3,
+    "nome": "Tridente Poseidon",
+    "categoria": "Mitologia",
+    "preco": 1299.00,
+    "imagem": "/imagens/tridente.jpg",
+    "descricao": "Tridente decorativo do deus do mar, Poseidon."
+  },
+  {
+    "id": 4,
+    "nome": "Escudo Viking",
+    "categoria": "Escudos",
+    "preco": 499.00,
+    "imagem": "/imagens/escudo.jpg",
+    "descricao": "Escudo redondo usado pelos guerreiros vikings."
+  },
+  {
+    "id": 5,
+    "nome": "Excalibur",
+    "categoria": "Espadas",
+    "preco": 2300.00,
+    "imagem": "/imagens/excalibur.jpg",
+    "descricao": "Espada lendária do rei Arthur."
+  },
+  {
+    "id": 6,
+    "nome": "Manopla de Ferro",
+    "categoria": "Luvas",
+    "preco": 199.00,
+    "imagem": "/imagens/manopla.jpg",
+    "descricao": "Manopla de ferro usada para proteção nas batalhas."
+  },
+  {
+    "id": 7,
+    "nome": "Mangual Medieval",
+    "categoria": "Medieval",
+    "preco": 430.00,
+    "imagem": "/imagens/mangual.jpg",
+    "descricao": "Arma medieval usada para combate com corrente."
+  },
+  {
+    "id": 8,
+    "nome": "Martelo de Guerra",
+    "categoria": "Medieval",
+    "preco": 250.00,
+    "imagem": "/imagens/martelo.jpg",
+    "descricao": "Martelo de guerra usado pelos guerreiros."
+  },
+  {
+    "id": 9,
+    "nome": "Lança Indigena",
+    "categoria": "Lanças",
+    "preco": 150.00,
+    "imagem": "/imagens/lanca.jpg",
+    "descricao": "Lança tradicional dos povos indígenas."
+  },
+  {
+    "id": 10,
+    "nome": "Sai Ninja",
+    "categoria": "Ninjas",
+    "preco": 450.00,
+    "imagem": "/imagens/sai.jpg",
+    "descricao": "Arma dupla usada pelos ninjas."
+  }
+]
